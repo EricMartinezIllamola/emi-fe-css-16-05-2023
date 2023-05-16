@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    border: 2px solid red;
+    margin-bottom: 5px;
+}
+
+#head {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    height: 65vh;
+    display: flex;
+}
+
+#footer {
+    height: 15vh;
+    display: flex;
+}
+
+.main {
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-izq {
+    width: 20%;
+}
+
+#main-der {
+    width: 80%;
+}
+
+.footer {
+    border: 2px solid violet;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
